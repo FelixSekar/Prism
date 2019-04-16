@@ -7,10 +7,10 @@ Follow the below steps to run the app.
 2)	Open command prompt on your computer and go inside the “colorizer_app” folder.
 3)	Install all the required python packages using the following command :
 
-		```pip install -r requiremen.txt```
+		pip install -r requiremen.txt
 4)	After successful installation of all the necessary packages run the “app.py” file using the below command:
 
-		```python app.py```
+		python app.py
 5)	Wait for a while as the app loads required packages and model used for prediction. When you get the message “Model loaded. Start serving…” open your web browser and type “localhost:5001” in the address bar. The app is ready to use. 
  
 
