@@ -3,11 +3,13 @@ A flask web app to plausibly colorize grayscale face portraits using deep learni
 Steps for execution: 
 Note: Make sure you have Python 2.7 or 3.5 installed on your computer
 Follow the below steps to run the app.
-1)	Place “colorizer_app” folder on your computer.
-2)	Open command prompt on your computer and go inside the “colorizer_app” folder.
+1)	Clone this repository
+
+		git clone https://github.com/FelixSekar/Prism.git
+2)	Download the model file named “group.h5” from [here](https://drive.google.com/open?id=1XorKfx_YLTuFnve8FdujqV-bgtL6AQzS) and place it inside the “models” folder.
 3)	Install all the required python packages using the following command :
 
-		pip install -r requiremen.txt
+		pip install -r requirements.txt
 4)	After successful installation of all the necessary packages run the “app.py” file using the below command:
 
 		python app.py
