@@ -7,14 +7,15 @@ Follow the below steps to run the app.
 1)	Clone this repository
 
 		git clone https://github.com/FelixSekar/Prism.git
-2)	Download the model file named “group.h5” from [here](https://drive.google.com/open?id=1XorKfx_YLTuFnve8FdujqV-bgtL6AQzS) and place it inside the “models” folder.
-3)	Install all the required python packages using the following command :
+2)	Create a folder called "models" inside the repository.
+3)	Download the model file named “group.h5” from [here](https://drive.google.com/open?id=1XorKfx_YLTuFnve8FdujqV-bgtL6AQzS) and place it inside the newly created “models” folder.
+4)	Install all the required python packages using the following command :
 
 		pip install -r requirements.txt
-4)	After successful installation of all the necessary packages run the “app.py” file using the below command:
+5)	After successful installation of all the necessary packages run the “app.py” file using the below command:
 
 		python app.py
-5)	Wait for a while as the app loads required packages and model used for prediction. When you get the message “Model loaded. Start serving…” open your web browser and type “localhost:5001” in the address bar. The app is ready to use. 
+6)	Wait for a while as the app loads required packages and model used for prediction. When you get the message “Model loaded. Start serving…” open your web browser and type “localhost:5001” in the address bar. The app is ready to use. 
  
 
 Credits : 
