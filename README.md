@@ -1,5 +1,7 @@
 A flask web app to plausibly colorize grayscale face portraits using deep learning.
 
+Link For Paper Published : https://drive.google.com/file/d/1IQQII4lIxS0HRV0o3SPVXd5gkuAs8E2t/view?usp=sharing
+
 Steps for execution: 
 
 Note: Make sure you have Python 2.7 or 3.5 installed on your computer
